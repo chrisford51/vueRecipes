@@ -1,17 +1,19 @@
 <template>
     <div>
-        <nav class="nav-extended indigo darken-2">
-            <div class="nav-content">
-                <router-link to="">
-                    <span class="nav-title">Vue Recipes</span>
-                </router-link>
-                <a href="" class="btn-floating btn-large halfway-fab pink">
+        <div class="navbar">
+            <nav class="nav-extended indigo darken-2">
+                <div class="nav-content">
                     <router-link to="">
-                        <i class="material-icons">add</i>
+                        <span class="nav-title">Vue Recipes</span>
                     </router-link>
-                </a>
-            </div>
-        </nav>
+                    <a href="" class="btn-floating btn-large halfway-fab pink">
+                        <router-link to="">
+                            <i class="material-icons">add</i>
+                        </router-link>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </div>
 </template>
 
